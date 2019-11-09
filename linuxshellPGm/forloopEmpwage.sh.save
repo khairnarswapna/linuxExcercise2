@@ -1,0 +1,21 @@
+#1/bin/bash -x
+isfulltime=1;
+isparttime=2;
+wage=50;
+partwage=25;
+
+for((counter=1;counter<=21;counter++))
+do
+ 
+empcheck=((RANDOM % 3 ))
+
+  if [ $empcheck -eq $isfulltime];
+    then 
+   totalwage=$(($totalwage+ $wage))
+
+ elif [$empcheck -eq $isparttime];
+    then
+   totalwage=$(($totalwage +$partwage))
+   else
+   totalwage=$((totalwage+0))
+

@@ -1,0 +1,31 @@
+#!/bin/bash -x
+
+emppre=$((RANDOM%10))
+if [ $emppre -gt 0 ]
+then
+read -p "Enter the wages per day : " wages
+read -p "Enter working hours :" hours
+
+amt= $(($wages * $hours ))
+
+echo "$amt"
+else
+echo "amount will not paid"
+fi
+
+emppre=$((RANDOM%10))
+if [ $emppre -gt 0 ]
+then
+read -p "Enter the wages per day : " wages
+read -p "Enter working hours :" hours
+
+amt= $(($wages * $hours ))
+
+echo "$amt"
+else
+echo "amount will not paid"
+fi
+
+
+
+
