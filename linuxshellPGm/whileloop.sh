@@ -1,4 +1,4 @@
-#!/bin/bash -x
++#!/bin/bash -x
 isfulltime=1;
 isparttime=2;
 counter=1;
